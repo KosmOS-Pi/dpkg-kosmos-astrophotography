@@ -1,0 +1,33 @@
+Source: kosmos-astrophotography
+Section: metapackages
+Priority: Optional
+Maintainer: Matteo Piscitelli <matteo@matteopiscitelli.it>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: kosmos-astrophotography
+Architecture: all
+Recommends: kstars, phd2
+Suggests: gsc
+Description: Astrophotography software suite.
+ This metapackage installs all astrophotography related packages:
+  * INDI bins and library
+  * KStars
+  * PHD2
+ NOTE that this package doesn't install any of INDI "3rdparty" drivers.
+ In case you need one of them, please install relevant package. You can search
+ in the repository with:
+ .
+   > apt list indi-<something>*
+ .
+ or
+ .
+   > apt search <something>
+ .
+ Alternatively, you can install all 3rdparty INDI drivers installing the
+ metapackage "indi-3rdparty-all".
+ .
+ If you need PHD Log Viewer, you can install it with:
+ .
+   > sudo apt install phdlogview
+
