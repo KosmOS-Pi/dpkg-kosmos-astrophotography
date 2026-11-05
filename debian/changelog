@@ -1,5 +1,11 @@
+kosmos-astrophotography (0.2-1~deb13) trixie; urgency=medium
+
+  * Remove recommends (test).
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Thu, 05 Nov 2026 18:48:04 +0100
+
 kosmos-astrophotography (0.1-1~deb13) trixie; urgency=medium
 
   * Version 0.1-1.
 
- -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Mon, 05 Nov 2026 17:46:32 +0000
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Mon, 05 Nov 2026 18:46:32 +0100

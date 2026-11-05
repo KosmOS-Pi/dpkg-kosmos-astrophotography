@@ -7,8 +7,7 @@ Build-Depends: debhelper-compat (= 13)
 
 Package: kosmos-astrophotography
 Architecture: all
-Recommends: kstars, phd2
-Suggests: gsc
+Suggests: kstars, phd2, gsc
 Description: Astrophotography software suite.
  This metapackage installs all astrophotography related packages:
   * INDI bins and library
